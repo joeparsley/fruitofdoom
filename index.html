@@ -18,21 +18,112 @@
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
+          <!-- Shirt style!!!! -->
           <h3>Select a shirt style:</h3>
           <select class="form-control" id="shirtStyle">
-            <option>Tank-top</option>
+            <option value="tank-top">Tank-top</option>
             <option>T-shirt</option>
             <option>Long-sleeved T-shirt</option>
             <option>Sweatshirt</option>
             <option>Hoodie</option>
           </select>
+          <!-- Shirt size!!!! -->
+          <h3>Select a size:</h3>
+          <div class="radio">
+          <label>
+            <input type="radio" name="size" value="xsmall" checked>
+            X-Small
+          </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="size" value="small">
+              Small
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="size" value="medium">
+              Medium
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="size" value="large">
+              Large
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="size" value="xlarge">
+              X-Large
+            </label>
+          </div>
+          <!-- Pick your shirt color! -->
+          <h3>Click on the bar below to select your color:</h3>
+          <div class="form-group">
+            <label for="color">Select your color here:</label>
+            <input id="shirtColor" class="form-control" type="color">
+          </div>
+          <!-- Choose your graphic -->
+          <h3>Select a graphic!</h3>
+          <div class="radio">
+          <label>
+            <input type="radio" name="graphic" value="graphic1" checked>
+            <img src="img/graphic1.jpg" alt="graphic" />
+          </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="graphic" value="graphic2">
+              <img src="img/graphic2.jpg" alt="graphic" />
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="graphic" value="graphic3">
+              <img src="img/graphic3.jpg" alt="graphic" class="portrait"/>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="graphic" value="graphic4">
+              <img src="img/graphic4.jpg" alt="graphic" class="portrait"/>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="graphic" value="graphic5">
+              <img src="img/graphic5.jpg" alt="graphic" class="portrait"/>
+            </label>
+          </div>
 
-          
-        </div>
+          <form id="customer">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input id="name" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="address">Mailing Address</label>
+              <input id="address" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="telnumber">Phone Number:</label>
+              <input id="telnumber" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">ORDER NOW</button>
+          </form>
+
+          <br><Br>
+        </div> <!--end of left column div -->
 
         <!-- right column -->
         <div class="col-md-6">
+          <div id="output">
+            <p>
 
+            </p>
+          </div>
 
 
         </div>
